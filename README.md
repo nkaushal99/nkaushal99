@@ -2,7 +2,7 @@
 
 ## Java | Spring Boot | Microservices | Docker
 
-👋 Hello! I'm Nikhil Kaushal, a passionate Spring Boot developer with a love for all things Java. I specialize in crafting robust and scalable web applications using the power of Spring Boot.
+👋 Hello! I'm Nikhil Kaushal, a passionate Java developer with a love for new things in tech. I specialize in crafting robust and scalable web applications using the power of Spring Boot.
 
 🌱 Constantly learning and exploring new technologies, I thrive on keeping up-to-date with the latest trends in the Java ecosystem and applying them to deliver efficient and elegant solutions.
 
