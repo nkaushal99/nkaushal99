@@ -1,41 +1,88 @@
 # Nikhil Kaushal
 
-## Java | Spring Boot | Microservices | Docker
+## AI Agents | LLM Engineering | Backend Systems | Java | Python | AWS
 
-👋 Hello! I'm Nikhil Kaushal, a passionate Java developer with a love for new things in tech. I specialize in crafting robust and scalable web applications using the power of Spring Boot.
+👋 Hello! I'm Nikhil Kaushal, a Software Engineer passionate about building intelligent systems that combine AI with scalable backend engineering. I enjoy developing production-ready AI agents, distributed systems, and developer platforms that solve real-world problems at scale.
 
-🌱 Constantly learning and exploring new technologies, I thrive on keeping up-to-date with the latest trends in the Java ecosystem and applying them to deliver efficient and elegant solutions.
+🚀 My recent work focuses on LLM-powered applications, multi-agent orchestration, evaluation frameworks, and backend infrastructure. I love turning complex ideas into reliable, maintainable software while constantly exploring the latest advancements in AI and cloud technologies.
 
-### 🔧 Technologies & Tools
+---
 
+## 🔧 Technologies & Tools
+
+### Languages
 - Java
+- Python
+
+### AI & LLM
+- AI Agents
+- LangChain
+- LangGraph
+- RAG
+- Prompt Engineering
+- Context Engineering
+- LLM Evaluations
+- OpenAI APIs
+
+### Backend
 - Spring Boot
-- Spring Framework
-- Hibernate
-- RESTful APIs
-- MySQL
-- Git
+- REST APIs
+- Data Structures & Algorithms
+- Design Patterns
+- Distributed Systems
+- Microservices
+
+### Cloud & DevOps
+- AWS
 - Docker
 
-### 🌟 What I Do
+---
 
-- Develop end-to-end Spring Boot applications, from concept to deployment.
-- Design and implement RESTful APIs that provide seamless user experiences.
-- Optimize application performance and ensure code quality through testing and debugging.
-- Collaborate with cross-functional teams to bring innovative ideas to life.
+## 🌟 What I Do
 
-### 📚 Currently Exploring
+- Build production-grade AI agents and LLM-powered applications.
+- Design scalable backend services that handle millions of requests efficiently.
+- Develop evaluation frameworks to measure and improve LLM quality.
+- Optimize distributed systems for performance, reliability, and cost.
+- Build cloud-native applications using AWS and modern engineering practices.
 
-Lately, I've been diving deep into:
+---
 
-- Microservices architecture
-- Spring Cloud
-- Docker and containerization
-- Kafka
-- Frontend technologies (JS, React)
+## 📚 Currently Exploring
 
-### 📫 Let's Connect
+I'm currently diving deeper into:
 
-📧 Feel free to reach out to me via email at [kaushalnikhil99@gmail.com](mailto:kaushalnikhil99@gmail.com), or connect with me on [LinkedIn](https://www.linkedin.com/in/kaushalnikhil99) to discuss collaboration opportunities, share insights, or chat about Java and Spring development.
+- Agentic AI Systems
+- Multi-Agent Architectures
+- AI Evaluation & Benchmarking
+- Context Engineering
+- Advanced RAG Pipelines
+- MCP (Model Context Protocol)
+- Distributed AI Infrastructure
 
-Looking forward to connecting with fellow developers, enthusiasts, and anyone who shares a passion for coding and innovation!
+---
+
+## 🚀 Featured Projects
+
+### 🎵 VibeSense
+An AI-powered heart-to-music recommendation agent that transforms live heart-rate signals and user preferences into grounded Spotify recommendations consumable by an iOS client.
+
+### 🎧 SonicMuse
+A real-time collaborative music streaming platform that synchronizes playback and live listening sessions across distributed users.
+
+---
+
+## 🏆 Certifications
+
+- AWS Certified Developer – Associate
+- AWS Certified Solutions Architect – Associate
+
+---
+
+## 📫 Let's Connect
+
+📧 **Email:** [kaushalnikhil99@gmail.com](mailto:kaushalnikhil99@gmail.com)
+
+💼 **LinkedIn:** https://www.linkedin.com/in/kaushalnikhil99
+
+I'm always happy to connect with engineers, AI enthusiasts, and builders working on intelligent systems, backend infrastructure, or open-source projects. Feel free to reach out for collaborations, discussions, or just to talk about AI and software engineering!
