@@ -1,88 +1,70 @@
-# Nikhil Kaushal
+<h1 align="center">Hey, I'm Nikhil Kaushal 👋</h1>
 
-## AI Agents | LLM Engineering | Backend Systems | Java | Python | AWS
+<p align="center">
+  <strong>Software Engineer · Backend & AI Engineering</strong><br/>
+  Building reliable, production-grade systems at the intersection of distributed backend engineering and applied AI.
+</p>
 
-👋 Hello! I'm Nikhil Kaushal, a Software Engineer passionate about building intelligent systems that combine AI with scalable backend engineering. I enjoy developing production-ready AI agents, distributed systems, and developer platforms that solve real-world problems at scale.
-
-🚀 My recent work focuses on LLM-powered applications, multi-agent orchestration, evaluation frameworks, and backend infrastructure. I love turning complex ideas into reliable, maintainable software while constantly exploring the latest advancements in AI and cloud technologies.
-
----
-
-## 🔧 Technologies & Tools
-
-### Languages
-- Java
-- Python
-
-### AI & LLM
-- AI Agents
-- LangChain
-- LangGraph
-- RAG
-- Prompt Engineering
-- Context Engineering
-- LLM Evaluations
-- OpenAI APIs
-
-### Backend
-- Spring Boot
-- REST APIs
-- Data Structures & Algorithms
-- Design Patterns
-- Distributed Systems
-- Microservices
-
-### Cloud & DevOps
-- AWS
-- Docker
+<p align="center">
+  <a href="https://www.linkedin.com/in/kaushalnikhil99">LinkedIn</a> ·
+  <a href="mailto:kaushalnikhil99@gmail.com">Email</a>
+</p>
 
 ---
 
-## 🌟 What I Do
+## About me
 
-- Build production-grade AI agents and LLM-powered applications.
-- Design scalable backend services that handle millions of requests efficiently.
-- Develop evaluation frameworks to measure and improve LLM quality.
-- Optimize distributed systems for performance, reliability, and cost.
-- Build cloud-native applications using AWS and modern engineering practices.
+I'm a software engineer focused on turning complex, high-throughput workflows into dependable products. My work spans **Java/Spring backend systems**, **event-driven architecture**, and **LLM-powered applications**—from multi-agent orchestration to retrieval, evaluation, and operational reliability.
 
----
+- 🧠 Building agentic AI platforms, RAG pipelines, and LLM evaluation systems
+- ⚙️ Designing asynchronous, resilient workflows with Kafka, SQS, and AWS
+- 🗄️ Modelling scalable data systems with DynamoDB, SQL/NoSQL, and vector databases
+- 🎓 B.E. Computer Engineering, Thapar Institute of Engineering & Technology — CGPA 9.3
 
-## 📚 Currently Exploring
+## Impact
 
-I'm currently diving deeper into:
+- Built a production **multi-agent orchestration platform** handling **10K+ weekly requests**, with routing, validation, guardrails, and multi-step workflow control.
+- Engineered an event-driven **RAG ingestion platform** for document parsing, chunking, vector indexing, and stateful failure recovery.
+- Developed an asynchronous **LLM-as-Judge evaluation pipeline** with versioned rubrics; cut evaluation cost by **50%** with batch inference.
+- Scaled sentence-level TTS through batched parallel synthesis—**3× throughput** and **70% lower inference cost**.
+- Designed typed SQS FIFO workflows and DynamoDB concurrency controls to preserve tenant ordering and prevent lost updates.
 
-- Agentic AI Systems
-- Multi-Agent Architectures
-- AI Evaluation & Benchmarking
-- Context Engineering
-- Advanced RAG Pipelines
-- MCP (Model Context Protocol)
-- Distributed AI Infrastructure
+## Tech I work with
 
----
+<p>
+  <img src="https://img.shields.io/badge/Java-1f2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-1f2937?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Spring_Boot-1f2937?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/AWS-1f2937?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-1f2937?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
+  <img src="https://img.shields.io/badge/DynamoDB-1f2937?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="DynamoDB" />
+  <img src="https://img.shields.io/badge/Docker-1f2937?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
-## 🚀 Featured Projects
+**AI Engineering** — AI Agents · LangChain · LangGraph · RAG · LLM-as-Judge · Vector Databases  
+**Backend & Distributed Systems** — Spring Boot · REST APIs · Microservices · Event-Driven Architecture · Kafka · Amazon SQS · State Machines  
+**Cloud & Data** — AWS · Lambda · S3 · DynamoDB · SQL · NoSQL · Docker
 
-### 🎵 VibeSense
-An AI-powered heart-to-music recommendation agent that transforms live heart-rate signals and user preferences into grounded Spotify recommendations consumable by an iOS client.
+## Selected projects
 
-### 🎧 SonicMuse
-A real-time collaborative music streaming platform that synchronizes playback and live listening sessions across distributed users.
+| Project | Focus |
+| --- | --- |
+| [One RAG](https://github.com/nkaushal99/one-rag) | Retrieval-augmented generation and document intelligence |
+| [VibeSense Agent](https://github.com/nkaushal99/vibesense-agent) | AI agent that grounds music recommendations in live heart-rate signals and preferences |
+| [Event-Driven Microservices](https://github.com/nkaushal99/event-driven-microservices) | Asynchronous backend patterns and distributed workflows |
+| [Realtime Chat](https://github.com/nkaushal99/realtime-chat) | Real-time messaging system design and implementation |
 
----
+## Currently exploring
 
-## 🏆 Certifications
+Multi-agent architectures · AI evaluation and observability · Context engineering · MCP · scalable AI infrastructure
 
-- AWS Certified Developer – Associate
+## Credentials
+
+- AWS Certified Developer – Associate (2026–2029)
 - AWS Certified Solutions Architect – Associate
 
 ---
 
-## 📫 Let's Connect
-
-📧 **Email:** [kaushalnikhil99@gmail.com](mailto:kaushalnikhil99@gmail.com)
-
-💼 **LinkedIn:** https://www.linkedin.com/in/kaushalnikhil99
-
-I'm always happy to connect with engineers, AI enthusiasts, and builders working on intelligent systems, backend infrastructure, or open-source projects. Feel free to reach out for collaborations, discussions, or just to talk about AI and software engineering!
+<p align="center">
+  <i>Open to conversations about backend systems, applied AI, and building reliable developer platforms.</i>
+</p>
