@@ -2,9 +2,13 @@
 
 **Software Engineer | High-Performance Computing & Distributed Systems**
 
-C++ · OpenMP · MPI · Linux · Performance Engineering · Cloud & AI Infrastructure
+Java · Python · C++ · OpenMP · MPI · Linux · AWS · Docker · Distributed Systems · Performance Engineering
 
-I build reliable distributed software and am expanding that experience into **high-performance computing (HPC), parallel programming, and systems infrastructure**. My background is in production backend and applied AI systems; my current hands-on work explores cache-aware C++, shared-memory and distributed-memory parallelism, and reproducible performance measurement.
+I’m a software engineer with experience building **backend systems, cloud-native services, distributed applications, and AI infrastructure**, and I’m now expanding that foundation into **high-performance computing, parallel programming, GPU systems, and compute infrastructure**.
+
+My professional background includes **Java, Python, Spring Boot, AWS, Docker, event-driven systems, concurrency, and AI workloads**, while my current hands-on work focuses on **C++, OpenMP, MPI, cache-aware optimization, Linux, and performance benchmarking**.
+
+I’m particularly interested in the intersection of **HPC software, distributed compute, GPU infrastructure, and AI inference systems**.
 
 [Portfolio](https://nkaushal99.github.io/) · [LinkedIn](https://www.linkedin.com/in/kaushalnikhil99) · [Email](mailto:kaushalnikhil99@gmail.com)
 
@@ -52,7 +56,7 @@ I bring practical experience in **distributed backend and AI systems**, includin
 ## Technology
 
 **HPC / systems (hands-on):** C++17 · OpenMP · MPI · CMake · Linux · cache-aware optimization · benchmarking  
-**Backend / distributed systems (professional):** Java · Spring Boot · Kafka · SQS · DynamoDB · REST · microservices · fault tolerance  
+**Backend / distributed systems (professional):** Java · Python · Spring Boot · Kafka · SQS · DynamoDB · REST · microservices · fault tolerance  
 **AI / cloud (professional):** Python · LangGraph · RAG · LLM evaluation · AWS · Docker  
 **Currently developing:** CUDA · GPU compute · Linux server operations · cluster management
 
