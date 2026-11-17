@@ -4,7 +4,7 @@
 
 Java · Python · C++ · OpenMP · MPI · Linux · AWS · Docker · Distributed Systems · Performance Engineering
 
-I’m a software engineer with experience building **backend systems, cloud-native services, distributed applications, and AI infrastructure**, and I’m now expanding that foundation into **high-performance computing, parallel programming, GPU systems, and compute infrastructure**.
+I’m a software engineer with experience building **backend systems, cloud-native services, distributed applications, and applied AI systems**, and I’m now expanding that foundation into **high-performance computing, parallel programming, GPU systems, and compute infrastructure**.
 
 My professional background includes **Java, Python, Spring Boot, AWS, Docker, event-driven systems, concurrency, and AI workloads**, while my current hands-on work focuses on **C++, OpenMP, MPI, cache-aware optimization, Linux, and performance benchmarking**.
 
@@ -17,7 +17,7 @@ I’m particularly interested in the intersection of **HPC software, distributed
 - **Parallel programming:** C++17, OpenMP threading, MPI rank-based decomposition, reductions, and collective communication.
 - **Performance engineering:** loop reordering, memory locality, cache blocking, benchmarking and scalability comparisons.
 - **Linux & infrastructure:** Linux administration and RHCSA preparation; interested in cluster operations, scheduling, observability and GPU server infrastructure.
-- **Next frontier:** CUDA/GPU programming, heterogeneous compute and AI inference infrastructure. *(Learning goals, not claimed production experience.)*
+- **Next frontier:** CUDA/GPU programming, heterogeneous compute and AI inference systems. *(Learning goals, not claimed production experience.)*
 
 ### Featured HPC project: [Parallel Matrix Engine](https://github.com/nkaushal99/parallel-matrix-engine)
 
@@ -69,6 +69,6 @@ I bring practical experience in **distributed backend and AI systems**, includin
 
 ---
 
-**Interested in:** HPC software engineering · distributed compute systems · GPU infrastructure · Linux systems engineering · AI inference infrastructure.
+**Interested in:** HPC software engineering · distributed compute systems · GPU infrastructure · Linux systems engineering · AI inference systems.
 
 I value measurable performance improvements and reliable systems, and I document both what works and what still needs validation.
