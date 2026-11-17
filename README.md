@@ -45,11 +45,9 @@ I bring practical experience in **distributed backend and AI systems**, includin
 
 | Project | What it demonstrates |
 | --- | --- |
-| [Parallel Matrix Engine](https://github.com/nkaushal99/parallel-matrix-engine) | C++, OpenMP, MPI, cache locality, benchmarks |
-| [Event-Driven Microservices](https://github.com/nkaushal99/event-driven-microservices) | Distributed messaging and asynchronous backend patterns |
-| [One RAG](https://github.com/nkaushal99/one-rag) | Document retrieval and AI data pipelines |
-| [VibeSense Agent](https://github.com/nkaushal99/vibesense-agent) | AI agent integrating live signals with downstream services |
-| [Realtime Chat](https://github.com/nkaushal99/realtime-chat) | Real-time messaging and system design |
+| [Parallel Matrix Engine](https://github.com/nkaushal99/parallel-matrix-engine) | **Primary current project:** C++, OpenMP, MPI, cache locality, performance optimization and benchmarking |
+| [VibeSense Agent](https://github.com/nkaushal99/vibesense-agent) | Applied AI agent integrating live signals with downstream services |
+| [One RAG](https://github.com/nkaushal99/one-rag) | RAG experimentation, document retrieval and AI data pipelines |
 
 ## Technology
 
