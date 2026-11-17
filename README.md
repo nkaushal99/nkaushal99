@@ -1,70 +1,74 @@
-<h1 align="center">Hey, I'm Nikhil Kaushal 👋</h1>
+# Hey, I'm Nikhil Kaushal 👋
 
-<p align="center">
-  <strong>Software Engineer · Backend & AI Engineering</strong><br/>
-  Building reliable, production-grade systems at the intersection of distributed backend engineering and applied AI.
-</p>
+**Software Engineer | High-Performance Computing & Distributed Systems**
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/kaushalnikhil99">LinkedIn</a> ·
-  <a href="mailto:kaushalnikhil99@gmail.com">Email</a>
-</p>
+Java · Python · C++ · OpenMP · MPI · Linux · AWS · Docker · Distributed Systems · Performance Engineering
 
----
+I’m a software engineer with experience building **backend systems, cloud-native services, distributed applications, and applied AI systems**, and I’m now expanding that foundation into **high-performance computing, parallel programming, GPU systems, and compute infrastructure**.
 
-## About me
+My professional background includes **Java, Python, Spring Boot, AWS, Docker, event-driven systems, concurrency, and AI workloads**, while my current hands-on work focuses on **C++, OpenMP, MPI, cache-aware optimization, Linux, and performance benchmarking**.
 
-I'm a software engineer focused on turning complex, high-throughput workflows into dependable products. My work spans **Java/Spring backend systems**, **event-driven architecture**, and **LLM-powered applications**—from multi-agent orchestration to retrieval, evaluation, and operational reliability.
+I’m particularly interested in the intersection of **HPC software, distributed compute, GPU infrastructure, and AI inference systems**.
 
-- 🧠 Building agentic AI platforms, RAG pipelines, and LLM evaluation systems
-- ⚙️ Designing asynchronous, resilient workflows with Kafka, SQS, and AWS
-- 🗄️ Modelling scalable data systems with DynamoDB, SQL/NoSQL, and vector databases
-- 🎓 B.E. Computer Engineering, Thapar Institute of Engineering & Technology — CGPA 9.3
+[Portfolio](https://nkaushal99.github.io/) · [LinkedIn](https://www.linkedin.com/in/kaushalnikhil99) · [Email](mailto:kaushalnikhil99@gmail.com)
 
-## Impact
+## Current focus: HPC & systems
 
-- Built a production **multi-agent orchestration platform** handling **10K+ weekly requests**, with routing, validation, guardrails, and multi-step workflow control.
-- Engineered an event-driven **RAG ingestion platform** for document parsing, chunking, vector indexing, and stateful failure recovery.
-- Developed an asynchronous **LLM-as-Judge evaluation pipeline** with versioned rubrics; cut evaluation cost by **50%** with batch inference.
-- Scaled sentence-level TTS through batched parallel synthesis—**3× throughput** and **70% lower inference cost**.
-- Designed typed SQS FIFO workflows and DynamoDB concurrency controls to preserve tenant ordering and prevent lost updates.
+- **Parallel programming:** C++17, OpenMP threading, MPI rank-based decomposition, reductions, and collective communication.
+- **Performance engineering:** loop reordering, memory locality, cache blocking, benchmarking and scalability comparisons.
+- **Linux & infrastructure:** Linux administration and RHCSA preparation; interested in cluster operations, scheduling, observability and GPU server infrastructure.
+- **Next frontier:** CUDA/GPU programming, heterogeneous compute and AI inference systems. *(Learning goals, not claimed production experience.)*
 
-## Tech I work with
+### Featured HPC project: [Parallel Matrix Engine](https://github.com/nkaushal99/parallel-matrix-engine)
 
-<p>
-  <img src="https://img.shields.io/badge/Java-1f2937?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-1f2937?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Spring_Boot-1f2937?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/AWS-1f2937?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Apache_Kafka-1f2937?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka" />
-  <img src="https://img.shields.io/badge/DynamoDB-1f2937?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="DynamoDB" />
-  <img src="https://img.shields.io/badge/Docker-1f2937?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
+Built five stages of C++17 matrix multiplication to isolate the effects of memory access, cache locality and parallel execution: **naive → loop-reordered → cache-blocked → OpenMP → MPI**. Includes CMake builds, benchmark collection, repeat-run summaries, plots, and numerical-result checks.
 
-**AI Engineering** — AI Agents · LangChain · LangGraph · RAG · LLM-as-Judge · Vector Databases  
-**Backend & Distributed Systems** — Spring Boot · REST APIs · Microservices · Event-Driven Architecture · Kafka · Amazon SQS · State Machines  
-**Cloud & Data** — AWS · Lambda · S3 · DynamoDB · SQL · NoSQL · Docker
+| Implementation | Configuration | Reported median (512×512) | Relative to naive |
+| --- | --- | ---: | ---: |
+| Naive | 1 worker | 2285.159 ms | 1.00× |
+| Loop-reordered | 1 worker | 1593.818 ms | 1.43× |
+| Cache-blocked | 32×32 tiles, 1 worker | 1463.679 ms | 1.56× |
+| OpenMP | 2 threads | 680.567 ms | 3.36× |
+| MPI | 2 ranks | 577.418 ms | 3.96× |
 
-## Selected projects
+*Reported project measurements: 110 runs per variant. The OpenMP/MPI figures reflect their documented environments; they are not a controlled, hardware-equivalent MPI-vs-OpenMP comparison. See the [project README](https://github.com/nkaushal99/parallel-matrix-engine#readme) for methodology and plots.*
 
-| Project | Focus |
+## Production engineering experience
+
+I bring practical experience in **distributed backend and AI systems**, including resilience, asynchronous coordination, workload processing and cost-aware execution:
+
+- Developed a production **multi-agent orchestration platform** handling **10K+ weekly requests**, with routing, validation, guardrails and multi-step workflow control.
+- Built event-driven **RAG ingestion infrastructure** for parsing, chunking, indexing and stateful failure recovery.
+- Developed an asynchronous **LLM-as-Judge evaluation pipeline**, reducing evaluation cost **50%** using batch inference.
+- Improved sentence-level TTS throughput **3×** while lowering inference cost **70%** through batched parallel synthesis.
+- Designed SQS FIFO and DynamoDB concurrency controls to preserve ordering and prevent lost updates.
+
+**Relevant bridge:** the same engineering disciplines—measuring throughput, handling concurrency, controlling resource use, and building reliable distributed services—also matter when moving from application-level distribution to HPC and AI compute infrastructure.
+
+## Selected systems and AI projects
+
+| Project | What it demonstrates |
 | --- | --- |
-| [One RAG](https://github.com/nkaushal99/one-rag) | Retrieval-augmented generation and document intelligence |
-| [VibeSense Agent](https://github.com/nkaushal99/vibesense-agent) | AI agent that grounds music recommendations in live heart-rate signals and preferences |
-| [Event-Driven Microservices](https://github.com/nkaushal99/event-driven-microservices) | Asynchronous backend patterns and distributed workflows |
-| [Realtime Chat](https://github.com/nkaushal99/realtime-chat) | Real-time messaging system design and implementation |
+| [Parallel Matrix Engine](https://github.com/nkaushal99/parallel-matrix-engine) | **Primary current project:** C++, OpenMP, MPI, cache locality, performance optimization and benchmarking |
+| [VibeSense Agent](https://github.com/nkaushal99/vibesense-agent) | Applied AI agent integrating live signals with downstream services |
+| [One RAG](https://github.com/nkaushal99/one-rag) | RAG experimentation, document retrieval and AI data pipelines |
 
-## Currently exploring
+## Technology
 
-Multi-agent architectures · AI evaluation and observability · Context engineering · MCP · scalable AI infrastructure
+**HPC / systems (hands-on):** C++17 · OpenMP · MPI · CMake · Linux · cache-aware optimization · benchmarking  
+**Backend / distributed systems (professional):** Java · Python · Spring Boot · Kafka · SQS · DynamoDB · REST · microservices · fault tolerance  
+**AI / cloud (professional):** Python · LangGraph · RAG · LLM evaluation · AWS · Docker  
+**Currently developing:** CUDA · GPU compute · Linux server operations · cluster management
 
-## Credentials
+## Education & credentials
 
+- B.E. Computer Engineering — Thapar Institute of Engineering & Technology, CGPA 9.3
 - AWS Certified Developer – Associate (2026–2029)
 - AWS Certified Solutions Architect – Associate
+- **Red Hat Certified System Administrator (RHCSA):** preparing for examination; certification not yet earned
 
 ---
 
-<p align="center">
-  <i>Open to conversations about backend systems, applied AI, and building reliable developer platforms.</i>
-</p>
+**Interested in:** HPC software engineering · distributed compute systems · GPU infrastructure · Linux systems engineering · AI inference systems.
+
+I value measurable performance improvements and reliable systems, and I document both what works and what still needs validation.
